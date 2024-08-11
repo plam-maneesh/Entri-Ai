@@ -3,8 +3,71 @@
 
     padding:0;
     margin:0;
+    border: 0;
+
+    background-color: black;
+
+
+
+}
+
+/* header styling */
+
+.nav{
+
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+
+}
+
+.nav_grup1{
+
+    display: flex;
+    align-items: center;
+    
+
+}
+.nav .nav_grup1 img {
+
+    border-radius: 50%;
+    padding: 20px;  
+
+}
+
+.nav_grup1 p{
+
+    text-align: center;
+    padding: 0 40px;
 
 
 
 
 }
+
+
+.nav_grup1 p span{
+
+   font-weight: 900;
+
+}
+
+.nav  a {
+
+
+    text-decoration: none;
+
+    display: block;
+    background-color: #8AC9FF;
+    color: black;
+    padding: 9px 50px;
+    border-radius: 20px;
+
+
+}
+
+/* header style end  */
